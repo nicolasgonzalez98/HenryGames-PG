@@ -1,0 +1,102 @@
+.backgroundStore{
+  background-image: url('https://cdn.discordapp.com/attachments/986703536811278446/992436854446112898/bg-01.jpg');
+  background-color: #151414;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x:hidden;
+  /* overflow-y: scroll; */
+  min-height: 100vh;
+  justify-content: center;
+  position: relative;
+  z-index: 1; 
+}
+
+.top-filter{
+  margin-top: 70px;
+  margin-bottom: 1em;
+}
+
+.containerFilters{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.inputSearchStore{
+  background-color: rgb(0, 0, 0);
+  color: #c7a84b;
+  font-size: 16px;
+  border: 1px solid;
+  border-color: #c7a84b;
+  border-radius: 8px;
+  margin: 5px;
+  margin-right: 10px;
+  padding: 5px;
+  height: 2.5rem;
+}
+
+.containerFilters select {
+  border-radius: 0.5rem;
+  background-color:black;
+  color: #c7a84b;
+  height: 2.5rem;
+  font-size: medium;
+  border: 1px solid;
+  border-color: #c7a84b;
+  margin: 0 0.3rem;
+}
+
+.containerFilters select:hover{
+  background-color: #c7a84b;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.Paginated{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonPrevNext{
+  background-color:#c7a84b;
+  height: 2.5rem;
+  width: 1.5rem;
+  margin: 0.5rem 0;
+  border-radius: 7px;
+  border: none;
+}
+.buttonPrevNext:hover{
+  background-color: #c7a84b;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s ease;
+  transform: scale(1.15);
+}
+
+.loadingStore{
+  justify-content: center;
+  align-content: center;
+  margin-top: 20vh;
+}
+
+.containercard {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  grid-gap: 10px;
+  justify-content: center; 
+  flex-wrap: wrap;
+  /* margin: 0 4vw; */
+}
+
+.eachCard{
+  width: 300px;
+  margin-bottom: 2rem;
+  
+}

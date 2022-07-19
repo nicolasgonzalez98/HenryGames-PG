@@ -1,0 +1,92 @@
+.paginado {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 .5rem;
+}
+        
+.pagination {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+        
+/* .pagination li {
+    margin: 0 1px;
+    background-color: black;
+    color: #c7a84b;
+    
+} */
+
+.pagination button:hover {
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: scale(1.15);
+}
+
+.PaginadoActive{
+    margin: 0 0.1rem;
+    background-color: #1a83ff;
+    color: #000;
+    font-size: medium;
+    height: 2.5rem;
+    width: 1.5rem;
+    border-radius: 7px;
+    border: none;
+}
+
+.PaginadoInactive{
+    margin: 0 0.1rem;
+    background-color: black;
+    color: #c7a84b;
+    font-size: medium;
+    height: 2.5rem;
+    width: 1.5rem;
+    border-radius: 7px;
+    border: none;
+}
+
+.PaginadoInactive:hover, .PaginadoActive:hover{
+    background-color: #c7a84b;
+    color: black;
+    transition: 0.2s;
+}
+
+/* .buttonPaginado:focus{
+    background-color: #c7a84b;
+    color: black;
+} */
+
+/* .number{
+    background-color: black;
+    color: #c7a84b;
+} */
+
+.EdgeInactive {
+    margin: 0 0.1rem;
+    background-color: rgb(98, 8, 8);
+    color: #c7a84b;
+    font-size: medium;
+    height: 2.5rem;
+    width: 1.5rem;
+    border-radius: 7px;
+    border: none;
+}
+
+.EdgeInactive:hover{
+    background-color: #c7a84b;
+    color: black;
+    transition: 0.2s;
+}
+
+/* .edge:focus{
+    background-color: #c7a84b;
+    color: black;
+} */
+
+
+
+
+
+
+
