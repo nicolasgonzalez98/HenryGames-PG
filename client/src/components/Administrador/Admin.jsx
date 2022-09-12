@@ -18,7 +18,12 @@ export function Admin() {
           <div className="admin_cont">
             <h2 className="tittle_admin">ADMINISTRATION PAGE</h2>
             <div className="admin_content">
-
+            <Link to='/admin/comments' style={{ textDecoration: 'none' }}>
+                <div className="admin_option">
+                  <img src="https://icones.pro/wp-content/uploads/2022/01/icone-de-commentaires-orange.png" alt='' />
+                  <p className="btn_adm">Comment administration</p>
+                </div>
+              </Link>
               <Link to="/admin/publishVideogame" style={{ textDecoration: 'none' }}>
                 <div className="admin_option">
                   <img src="https://cdn.iconscout.com/icon/free/png-256/game-publishing-1467902-1244384.png" alt="" />
@@ -50,12 +55,7 @@ export function Admin() {
                   <p className="btn_adm">Publish Article</p>
                   </div> 
                 </Link>
-              <Link to='/admin/comments' style={{ textDecoration: 'none' }}>
-                <div className="admin_option">
-                  <img src="https://icones.pro/wp-content/uploads/2022/01/icone-de-commentaires-orange.png" alt='' />
-                  <p className="btn_adm">Comment administration</p>
-                </div>
-              </Link>
+              
             </div>
           </div>
         </div>
